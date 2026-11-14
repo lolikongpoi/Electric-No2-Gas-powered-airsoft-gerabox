@@ -101,6 +101,15 @@ Fabrication archives are stored under [`hardware/pcb`](hardware/pcb).
 
 Each ZIP is preserved as supplied so it can be uploaded directly to a PCB fabricator after inspection. Review the drill, outline, copper, mask, paste, and silkscreen layers in a Gerber viewer before ordering.
 
+## Bill of materials
+
+The reconstructed major-component BOM is available in two formats.
+
+- [Bilingual BOM with procurement notes](hardware/BOM.md)
+- [CSV BOM](hardware/BOM.csv)
+
+The BOM covers the pneumatic parts, seals, controller modules, connectors, regulators, MOSFET, and switches identified from the original build records. Screw quantity and unlisted passive components depend on the hardware revision.
+
 ## Demonstration videos
 
 <table>
@@ -129,6 +138,8 @@ E2G/
 │   ├── e2g-controller-v2/   Recommended Arduino firmware
 │   └── legacy-controller/   Historical Arduino firmware
 ├── hardware/
+│   ├── BOM.md               Bilingual bill of materials and procurement notes
+│   ├── BOM.csv              Spreadsheet-ready bill of materials
 │   ├── 3d-models/           Four STL parts
 │   └── pcb/                 Gerber fabrication archives
 ├── LICENSE

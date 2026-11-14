@@ -93,6 +93,15 @@ E2G 是一个紧凑型电气动控制研究平台，由 Arduino 兼容控制器�
 
 所有 ZIP 均按原始形式保留。下单前应使用 Gerber 查看器检查钻孔、外形、铜层、阻焊、钢网和丝印层。
 
+## 物料清单
+
+主要物料清单提供两种格式。
+
+- [中英双语 BOM 和采购检查说明](hardware/BOM.md)
+- [CSV 格式 BOM](hardware/BOM.csv)
+
+清单包括原始装配记录中能够确认的气动件、密封件、控制模块、连接器、稳压器、MOSFET 和开关。螺丝数量及未列出的无源器件随硬件版本而变化。
+
 ## 演示视频
 
 - [E2G 演示视频 1](https://www.youtube.com/watch?v=JNImz593QCc)
@@ -107,6 +116,8 @@ E2G/
 │   ├── e2g-controller-v2/   推荐 Arduino 固件
 │   └── legacy-controller/   历史 Arduino 固件
 ├── hardware/
+│   ├── BOM.md               中英双语物料清单和采购说明
+│   ├── BOM.csv              可导入表格软件的物料清单
 │   ├── 3d-models/           4 个 STL 零件
 │   └── pcb/                 Gerber 生产文件
 ├── LICENSE

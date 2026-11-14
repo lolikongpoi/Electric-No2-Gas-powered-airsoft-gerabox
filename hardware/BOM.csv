@@ -1,0 +1,19 @@
+Reference,Category,Item,Specification,Package,Quantity,Notes
+M1,Mechanical,Countersunk screw / 沉头螺丝,M2 x 8 mm,,As required,Quantity depends on printed-part revision / 数量按打印件版本确定
+P1,Pneumatic,Male-to-male brass fitting / 铜对丝,G1/8 (1分); 18.5 mm length; 7.7 mm bore; 10 mm across flats,,1,Inspect thread sealing / 检查螺纹密封
+P2,Pneumatic,Cylinder / 气缸,75% cylinder,,1,Opening advanced forward / 开口超前安装
+P3,Seal,O-ring / O形圈,24 x 2.4 mm,,3,Use compatible lubricant / 使用兼容润滑脂
+P4,Pneumatic,Solenoid valve / 电磁阀,MAC 35A-ACA-DDA-1BA; 12 V; 5.4 W,,1,Confirm coil marking / 核对线圈铭牌
+P5,Mechanical,Pusher-nozzle rubber tip / 推嘴胶头,Standard configuration,,1,Check fit and sealing surface / 检查配合及密封面
+U1,Controller,Arduino Pro Mini,ATmega328P; 5 V; 16 MHz,Module,1,Main controller / 主控制器
+U2,Communication,Bluetooth serial module / 蓝牙透传模块,BT04-E,Module,1,UART transparent transmission / UART串口透传
+J1,Connector,Straight pin header / 直针座,PH2.0 7P,Through-hole,1,Check orientation / 核对方向
+J2,Connector,Right-angle pin header / 弯针座,PH2.0 7P,Through-hole,1,Check orientation / 核对方向
+J3,Connector,Straight pin header / 直针座,XH2.54 4P,Through-hole,1,Check orientation / 核对方向
+Q1,Semiconductor,N-channel MOSFET,SI2302; marking A2sHB,SOT-23,1,Confirm pinout and marking / 核对引脚和丝印
+U3,Semiconductor,5 V linear regulator,L78M05CDT / 78M05,TO-252 / DPAK,1,Confirm footprint / 核对封装
+U4,Semiconductor,3.3 V LDO regulator,LN1154B332MR-G,SOT-23-5,1,Confirm footprint / 核对封装
+SW1,Switch,Self-locking push-button / 自锁按键,5.8 x 5.8 mm; six-pin,Horizontal through-hole,1,Side-actuated / 卧式侧按
+SW2,Switch,Tactile switch / 轻触开关,Rjsvm 3 x 6 x 2.5 mm,SMD,1,Side-actuated / 贴片侧按
+SW3,Switch,Travel-detection switch / 行程检测开关,Shinmei SW1AB-264-1T25,SMD,1,Miniature travel switch / 小型行程开关
+
