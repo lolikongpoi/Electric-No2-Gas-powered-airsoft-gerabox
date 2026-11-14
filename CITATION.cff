@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use E2G in your research, please cite this repository."
+title: "E2G Electro-pneumatic Solenoid Control Research Platform"
+type: software
+authors:
+  - name: "rayfor&LLK industry committee"
+license: MIT
+date-released: 2026-11-14
+
