@@ -103,9 +103,9 @@ Each ZIP is preserved as supplied so it can be uploaded directly to a PCB fabric
 
 ## Bill of materials
 
-The reconstructed major-component BOM is available in two formats.
+The BOM is currently incomplete and is provided for component identification only. The spring and small O-ring dimensions have yet to be uploaded.
 
-- [Bilingual BOM with procurement notes](hardware/BOM.md)
+- [Bilingual BOM](hardware/BOM.md)
 - [CSV BOM](hardware/BOM.csv)
 
 The BOM covers the pneumatic parts, seals, controller modules, connectors, regulators, MOSFET, and switches identified from the original build records. Screw quantity and unlisted passive components depend on the hardware revision.
